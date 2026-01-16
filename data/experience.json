@@ -1,14 +1,22 @@
 [
     {
-        "id": 1,
-        "position": "Data Engineer",
-        "company": "LXT",
-        "startDate": "Jan 2025",
+        "id": 2,
+        "position": "Back End Developer",
+        "company": "Dar",
+        "startDate": "July 2025",
         "endDate": "Present",
-        "description": "Currently working as a Data Engineer at LXT, focusing on data pipeline development and optimization."
+        "description": "Currently working as a Back End Developer at Dar, focusing on backend development and system optimization."
     },
     {
         "id": 2,
+        "position": "Data Engineer",
+        "company": "LXT",
+        "startDate": "Jan 2025",
+        "endDate": "July 2025",
+        "description": "Currently working as a Data Engineer at LXT, focusing on data pipeline development and optimization."
+    },
+    {
+        "id": 3,
         "position": "Back End Engineer",
         "company": "LXT",
         "startDate": "Sep 2022",

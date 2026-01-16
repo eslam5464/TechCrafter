@@ -27,6 +27,7 @@
             "skills": [
                 "PostgreSQL",
                 "SQL Server",
+                "MongoDB",
                 "MySQL",
                 "SQLite"
             ]
@@ -40,13 +41,16 @@
         {
             "name": "Server Infrastructure",
             "skills": [
-                "Proxmox"
+                "Proxmox",
+                "Coolify",
+                "Compute Engine"
             ]
         },
         {
             "name": "Containerization",
             "skills": [
-                "Docker"
+                "Docker",
+                "Docker Compose"
             ]
         },
         {

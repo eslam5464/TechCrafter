@@ -1,5 +1,12 @@
 # Tech Crafter - Dynamic Portfolio Website
 
+## 🌐 Live Demo
+
+**Current:** <https://eslam5464.github.io/TechCrafter/>  
+**Production:** <https://techcrafter.dev>
+
+> Note: The `siteUrl` in `data/config.json` is the source of truth. Update it there when switching domains.
+
 A modern, dynamic portfolio website built with vanilla JavaScript and JSON-based content management. Hosted on GitHub Pages with easy-to-update content files.
 
 ## Features

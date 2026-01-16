@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "Warehouse Manager",
+        "description": "Comprehensive inventory management system for warehouse operations",
+        "image": "assets/images/projects/warehouse-manager.jpg",
+        "github": "https://github.com/eslam5464/SuperMarket",
+        "tags": [
+            "Python",
+            "Database",
+            "Backend"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "ERP System",
+        "description": "Enterprise Resource Planning solution for business management",
+        "image": "assets/images/projects/erp-system.jpg",
+        "github": "https://github.com/eslam5464/Flow-ERP-sample-schema",
+        "tags": [
+            "Node.js",
+            "PostgreSQL",
+            "Backend"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "URL Shortener",
+        "description": "URL shortening service with analytics and tracking",
+        "image": "assets/images/projects/url-shortener.jpg",
+        "github": "https://github.com/eslam5464/Url-Shortener",
+        "tags": [
+            "Python",
+            "FastAPI",
+            "Backend"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Fitness App",
+        "description": "Mobile application for fitness tracking and workout management",
+        "image": "assets/images/projects/fitness-app.jpg",
+        "github": "#",
+        "tags": [
+            "Mobile",
+            "Frontend",
+            "React"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "FlexTK",
+        "description": "Flexible toolkit for data processing and transformation",
+        "image": "assets/images/projects/flex-tk.jpg",
+        "github": "https://github.com/eslam5464/FlexTK",
+        "tags": [
+            "Python",
+            "Data",
+            "Toolkit"
+        ]
+    }
+]

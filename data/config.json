@@ -1,0 +1,28 @@
+{
+    "siteUrl": "https://techcrafter.dev",
+    "siteName": "Tech Crafter",
+    "siteDescription": "Software Engineer specialized in data engineering and backend development",
+    "author": "Eslam Mohamed",
+    "heroTagline": "I am a Software Engineer interested in development, creating fun, and crafting interesting stuff. 🛠️",
+    "aboutTitle": "About me",
+    "aboutDescription": "I have a strong background in advanced data management and troubleshooting skills, thanks to my education and certifications. I graduated with a Bachelor of Engineering in Computer Engineering from the Arab Academy for Science, Technology, and Maritime Transport where I learned the fundamentals of programming, data structures, algorithms, and databases.",
+    "social": {
+        "linkedin": "https://www.linkedin.com/in/eslam5464/",
+        "github": "https://github.com/eslam5464",
+        "email": "mailto:eslam@techcrafter.dev"
+    },
+    "contact": {
+        "formEmail": "eslam@techcrafter.dev",
+        "formspreeId": "YOUR_FORMSPREE_ID"
+    },
+    "cta": {
+        "primary": {
+            "text": "Connect with me",
+            "url": "https://www.linkedin.com/in/eslam5464/"
+        },
+        "secondary": {
+            "text": "Email me",
+            "url": "mailto:eslam@techcrafter.dev"
+        }
+    }
+}

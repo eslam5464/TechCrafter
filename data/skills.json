@@ -1,0 +1,82 @@
+{
+    "categories": [
+        {
+            "name": "Programming Languages",
+            "skills": [
+                "Python",
+                "C#",
+                "SQL",
+                "JavaScript"
+            ]
+        },
+        {
+            "name": "Web Frameworks",
+            "skills": [
+                "FastAPI",
+                "Django"
+            ]
+        },
+        {
+            "name": "Version Control",
+            "skills": [
+                "Git"
+            ]
+        },
+        {
+            "name": "Database Systems",
+            "skills": [
+                "PostgreSQL",
+                "SQL Server",
+                "MySQL",
+                "SQLite"
+            ]
+        },
+        {
+            "name": "ORM",
+            "skills": [
+                "SQLAlchemy"
+            ]
+        },
+        {
+            "name": "Server Infrastructure",
+            "skills": [
+                "Proxmox"
+            ]
+        },
+        {
+            "name": "Containerization",
+            "skills": [
+                "Docker"
+            ]
+        },
+        {
+            "name": "Data Analysis & Manipulation",
+            "skills": [
+                "Pandas",
+                "Excel",
+                "Tableau"
+            ]
+        },
+        {
+            "name": "ETL Tools",
+            "skills": [
+                "Airflow",
+                "Mage AI"
+            ]
+        },
+        {
+            "name": "Cloud Automation",
+            "skills": [
+                "Power Automate"
+            ]
+        },
+        {
+            "name": "Soft Skills",
+            "skills": [
+                "Customer Service",
+                "Problem-solving",
+                "Communication"
+            ]
+        }
+    ]
+}

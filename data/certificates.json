@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "title": "Big Data Specialist",
+        "issuer": "ITI",
+        "url": "https://drive.google.com/file/d/1DTBGiDEBfWdbVNphzSArZksMTu1RA1-o/",
+        "date": "2023"
+    },
+    {
+        "id": 2,
+        "title": "Big Data Essentials",
+        "issuer": "NTI",
+        "url": "https://drive.google.com/file/d/1F4JaQyK_YOpKaMQ0PMi7blXNgVaUiU26/view?usp=drive_link",
+        "date": "2023"
+    },
+    {
+        "id": 3,
+        "title": "Microsoft Excel Crashcourse",
+        "issuer": "Udemy",
+        "url": "https://www.udemy.com/certificate/UC-a5dcf070-5ebe-44e9-ba78-7a09d135e6fa/",
+        "date": "2022"
+    },
+    {
+        "id": 4,
+        "title": "Big Data Foundations",
+        "issuer": "IBM",
+        "url": "https://www.credly.com/badges/fe99c76f-8b57-4cee-ae50-f74bf917bc57/",
+        "date": "2023"
+    },
+    {
+        "id": 5,
+        "title": "Professional Front-End Web Development",
+        "issuer": "Udacity",
+        "url": "https://confirm.udacity.com/MLUAWGCD",
+        "date": "2022"
+    }
+]

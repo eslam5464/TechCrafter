@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Software Engineer specialized in data engineering and backend development" />
+    <meta name="author" content="Eslam Mohamed" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- OG Tags for Social Sharing -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Tech Crafter - Eslam Mohamed" />
+    <meta property="og:description" content="Software Engineer specialized in data engineering and backend development" />
+    <meta property="og:url" content="https://techcrafter.dev" />
+    <meta property="og:site_name" content="Tech Crafter" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Tech Crafter - Eslam Mohamed" />
+    <meta name="twitter:description" content="Software Engineer specialized in data engineering and backend development" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://techcrafter.dev" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/webp" href="assets/images/logo.webp" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-XXXXXXXXXX");
+    </script>
+
+    <title>Tech Crafter - Eslam Mohamed | Software Engineer</title>
+  </head>
+  <body>
+    <!-- ============================
+       HEADER & NAVIGATION
+       ============================ -->
+    <header>
+      <div class="header-container">
+        <div class="logo">
+          <img src="assets/images/logo.webp" alt="Tech Crafter Logo" />
+          <span>Tech Crafter</span>
+        </div>
+        <nav id="header-nav">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ============================
+       HERO SECTION
+       ============================ -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1 id="hero-title">Hi, I'm Eslam Mohamed</h1>
+        <p id="hero-tagline"></p>
+        <div class="hero-buttons">
+          <a href="#" class="btn btn-primary" id="cta-primary"></a>
+          <a href="#" class="btn btn-secondary" id="cta-secondary"></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================
+       MAIN CONTENT
+       ============================ -->
+    <main>
+      <!-- ====== ABOUT SECTION ====== -->
+      <section class="about" id="about">
+        <div class="about-content">
+          <h2>About Me</h2>
+          <p id="about-description"></p>
+        </div>
+      </section>
+
+      <!-- ====== EXPERIENCE SECTION ====== -->
+      <section class="experience" id="experience">
+        <h2>Experience</h2>
+        <div class="experience-list" id="experience-list">
+          <!-- Populated by JavaScript -->
+        </div>
+      </section>
+
+      <!-- ====== SKILLS SECTION ====== -->
+      <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container" id="skills-container">
+          <!-- Populated by JavaScript -->
+        </div>
+      </section>
+
+      <!-- ====== PROJECTS SECTION ====== -->
+      <section class="projects" id="projects">
+        <div class="projects-intro">
+          <h2>Check out my work</h2>
+          <p>Check out some of my personal projects</p>
+        </div>
+        <div class="projects-grid" id="projects-grid">
+          <!-- Populated by JavaScript -->
+        </div>
+      </section>
+
+      <!-- ====== CERTIFICATES SECTION ====== -->
+      <section class="certificates" id="certificates">
+        <h2>Courses & Certificates</h2>
+        <div class="certificates-list" id="certificates-list">
+          <!-- Populated by JavaScript -->
+        </div>
+      </section>
+
+      <!-- ====== CONTACT SECTION ====== -->
+      <section class="contact" id="contact">
+        <div class="contact-content">
+          <div class="contact-intro">
+            <h6>Get in Touch</h6>
+            <h2>Let's talk?</h2>
+            <p>Got a partnership idea, or a project you need help with? Shoot me a line and let's talk.</p>
+          </div>
+
+          <!-- Contact Form -->
+          <form id="contact-form" method="POST" action="https://formspree.io/f/YOUR_FORMSPREE_ID">
+            <!-- Honeypot for spam protection -->
+            <input type="text" name="_gotcha" style="display: none" aria-hidden="true" />
+
+            <!-- Name Field (Optional) -->
+            <div class="form-group">
+              <label for="form-name">Name</label>
+              <input type="text" id="form-name" name="name" placeholder="Your name" />
+            </div>
+
+            <!-- Email Field (Required) -->
+            <div class="form-group required">
+              <label for="form-email">Your email</label>
+              <input type="email" id="form-email" name="email" placeholder="your@email.com" required />
+            </div>
+
+            <!-- Message Field (Required) -->
+            <div class="form-group required">
+              <label for="form-message">Message</label>
+              <textarea id="form-message" name="message" placeholder="Your message here..." required></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="form-submit" id="form-submit">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============================
+       FOOTER
+       ============================ -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-social" id="footer-social">
+          <!-- Populated by JavaScript -->
+        </div>
+        <div class="footer-credit">
+          <p>&copy; <span id="current-year"></span> Eslam Mohamed. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ============================
+       SUCCESS/ERROR MESSAGE OVERLAY
+       ============================ -->
+    <div class="message-overlay" id="message-overlay">
+      <div class="message-box" id="message-box">
+        <h3 id="message-title">Success!</h3>
+        <p id="message-content">Thank you for your message. I will get back to you soon!</p>
+        <button class="message-close" id="message-close">Close</button>
+      </div>
+    </div>
+
+    <!-- Main JavaScript Application -->
+    <script src="js/app.js"></script>
+  </body>
+</html>

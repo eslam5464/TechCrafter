@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "position": "Data Engineer",
+        "company": "LXT",
+        "startDate": "Jan 2025",
+        "endDate": "Present",
+        "description": "Currently working as a Data Engineer at LXT, focusing on data pipeline development and optimization."
+    },
+    {
+        "id": 2,
+        "position": "Back End Engineer",
+        "company": "LXT",
+        "startDate": "Sep 2022",
+        "endDate": "Dec 2024",
+        "description": "Worked as a Back End Engineer at LXT, developing and maintaining backend systems and APIs."
+    }
+]

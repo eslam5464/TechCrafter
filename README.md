@@ -2,8 +2,7 @@
 
 ## 🌐 Live Demo
 
-**Current:** <https://eslam5464.github.io/TechCrafter/>  
-**Production:** <https://techcrafter.dev>
+<https://techcrafter.dev>
 
 > Note: The `siteUrl` in `data/config.json` is the source of truth. Update it there when switching domains.
 
@@ -259,8 +258,3 @@ For issues or questions, check the following:
 - GitHub Issues in the repository
 - Formspree documentation: <https://formspree.io/docs>
 - Google Analytics Help: <https://support.google.com/analytics>
-
----
-
-**Last Updated:** January 2025  
-**Version:** 1.0

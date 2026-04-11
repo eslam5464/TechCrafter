@@ -1,11 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Software Engineer specialized in data engineering and backend development" />
     <meta name="author" content="Eslam Mohamed" />
-    <meta name="theme-color" content="#ffffff" />
+    <meta name="theme-color" content="#000000" />
 
     <!-- OG Tags for Social Sharing -->
     <meta property="og:type" content="website" />
@@ -36,6 +36,19 @@
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/style.css" />
 
+    <script>
+      (function () {
+        try {
+          var savedTheme = localStorage.getItem("theme");
+          var systemPrefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+          var activeTheme = savedTheme || (systemPrefersDark ? "dark" : "light");
+          document.documentElement.setAttribute("data-theme", activeTheme);
+        } catch (err) {
+          document.documentElement.setAttribute("data-theme", "dark");
+        }
+      })();
+    </script>
+
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
     <script>
@@ -59,28 +72,49 @@
           <img src="assets/images/logo.webp" alt="Tech Crafter Logo" />
           <span>Tech Crafter</span>
         </div>
-        <nav id="header-nav">
+        <div class="header-actions">
+          <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light theme" title="Toggle theme">
+            <i class="fas fa-sun" aria-hidden="true"></i>
+          </button>
+          <button
+            class="menu-toggle"
+            id="menu-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="header-nav"
+            aria-label="Open navigation"
+          >
+            <i class="fas fa-bars" aria-hidden="true"></i>
+          </button>
+        </div>
+        <nav id="header-nav" class="site-nav" aria-label="Primary navigation">
           <a href="#about">About</a>
           <a href="#experience">Experience</a>
           <a href="#skills">Skills</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
         </nav>
+        <button class="nav-backdrop" id="nav-backdrop" type="button" aria-label="Close navigation menu"></button>
       </div>
     </header>
 
     <!-- ============================
        HERO SECTION
        ============================ -->
-    <section class="hero">
-      <div class="hero-content">
+    <section class="hero" id="top">
+      <div class="hero-content" data-reveal>
+        <p class="hero-intro">01. Crafting Modern Software Experiences</p>
         <h1 id="hero-title">Hi, I'm Eslam Mohamed</h1>
-        <p id="hero-tagline"></p>
+        <p id="hero-tagline"><span id="hero-tagline-text"></span><span class="typing-cursor" aria-hidden="true"></span></p>
         <div class="hero-buttons">
           <a href="#" class="btn btn-primary" id="cta-primary"></a>
           <a href="#" class="btn btn-secondary" id="cta-secondary"></a>
         </div>
       </div>
+      <a href="#about" class="scroll-indicator" aria-label="Scroll to About section">
+        <span>Scroll</span>
+        <i class="fas fa-chevron-down" aria-hidden="true"></i>
+      </a>
     </section>
 
     <!-- ============================
@@ -88,54 +122,54 @@
        ============================ -->
     <main>
       <!-- ====== ABOUT SECTION ====== -->
-      <section class="about" id="about">
+      <section class="about" id="about" data-reveal>
         <div class="about-content">
-          <h2>About Me</h2>
+          <h2><span class="section-index">02.</span> About Me</h2>
           <p id="about-description"></p>
         </div>
       </section>
 
       <!-- ====== EXPERIENCE SECTION ====== -->
-      <section class="experience" id="experience">
-        <h2>Experience</h2>
+      <section class="experience" id="experience" data-reveal>
+        <h2><span class="section-index">03.</span> Experience</h2>
         <div class="experience-list" id="experience-list">
           <!-- Populated by JavaScript -->
         </div>
       </section>
 
       <!-- ====== SKILLS SECTION ====== -->
-      <section class="skills" id="skills">
-        <h2>Skills</h2>
+      <section class="skills" id="skills" data-reveal>
+        <h2><span class="section-index">04.</span> Skills</h2>
         <div class="skills-container" id="skills-container">
           <!-- Populated by JavaScript -->
         </div>
       </section>
 
       <!-- ====== PROJECTS SECTION ====== -->
-      <section class="projects" id="projects">
+      <section class="projects" id="projects" data-reveal>
         <div class="projects-intro">
-          <h2>Check out my work</h2>
+          <h2><span class="section-index">05.</span> Check out my work</h2>
           <p>Check out some of my personal projects</p>
         </div>
-        <div class="projects-grid" id="projects-grid">
+        <div class="projects-list" id="projects-grid">
           <!-- Populated by JavaScript -->
         </div>
       </section>
 
       <!-- ====== CERTIFICATES SECTION ====== -->
-      <section class="certificates" id="certificates">
-        <h2>Courses & Certificates</h2>
+      <section class="certificates" id="certificates" data-reveal>
+        <h2><span class="section-index">06.</span> Courses & Certificates</h2>
         <div class="certificates-list" id="certificates-list">
           <!-- Populated by JavaScript -->
         </div>
       </section>
 
       <!-- ====== CONTACT SECTION ====== -->
-      <section class="contact" id="contact">
+      <section class="contact" id="contact" data-reveal>
         <div class="contact-content">
           <div class="contact-intro">
             <h6>Get in Touch</h6>
-            <h2>Let's talk?</h2>
+            <h2><span class="section-index">07.</span> Let's talk?</h2>
             <p>Got a partnership idea, or a project you need help with? Shoot me a line and let's talk.</p>
           </div>
 
@@ -172,7 +206,7 @@
     <!-- ============================
        FOOTER
        ============================ -->
-    <footer>
+    <footer data-reveal>
       <div class="footer-content">
         <div class="footer-social" id="footer-social">
           <!-- Populated by JavaScript -->

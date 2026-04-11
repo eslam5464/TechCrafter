@@ -6,9 +6,10 @@
         "image": "assets/images/projects/warehouse-manager.jpg",
         "github": "https://github.com/eslam5464/SuperMarket",
         "tags": [
-            "Python",
-            "Database",
-            "Backend"
+            "C#",
+            "Dapper",
+            "MSSQL",
+            "WPF"
         ]
     },
     {
@@ -18,9 +19,9 @@
         "image": "assets/images/projects/erp-system.jpg",
         "github": "https://github.com/eslam5464/Flow-ERP-sample-schema",
         "tags": [
-            "Node.js",
             "PostgreSQL",
-            "Backend"
+            "Django",
+            "Jinja2"
         ]
     },
     {
@@ -32,7 +33,9 @@
         "tags": [
             "Python",
             "FastAPI",
-            "Backend"
+            "PostgreSQL",
+            "Redis",
+            "Jinja2"
         ]
     },
     {
@@ -44,7 +47,11 @@
         "tags": [
             "Mobile",
             "Frontend",
-            "React"
+            "React",
+            "FastAPI",
+            "PostgreSQL",
+            "Redis",
+            "Apple Pay"
         ]
     },
     {

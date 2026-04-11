@@ -13,13 +13,16 @@
             "name": "Web Frameworks",
             "skills": [
                 "FastAPI",
-                "Django"
+                "Django",
+                "React"
             ]
         },
         {
             "name": "Version Control",
             "skills": [
-                "Git"
+                "Git",
+                "GitHub",
+                "GitLab"
             ]
         },
         {
@@ -35,7 +38,9 @@
         {
             "name": "ORM",
             "skills": [
-                "SQLAlchemy"
+                "SQLAlchemy",
+                "Dapper",
+                "Entity Framework"
             ]
         },
         {
@@ -43,14 +48,23 @@
             "skills": [
                 "Proxmox",
                 "Coolify",
-                "Compute Engine"
+                "Google Compute Engine",
+                "Google Cloud Run",
+                "Google Cloud Storage",
+                "AWS EC2",
+                "AWS S3",
+                "AWS Lambda",
+                "Azure Virtual Machines",
+                "Azure Blob Storage",
+                "Azure Functions"
             ]
         },
         {
             "name": "Containerization",
             "skills": [
                 "Docker",
-                "Docker Compose"
+                "Docker Compose",
+                "Kubernetes"
             ]
         },
         {
@@ -58,7 +72,8 @@
             "skills": [
                 "Pandas",
                 "Excel",
-                "Tableau"
+                "Tableau",
+                "Power BI"
             ]
         },
         {
@@ -71,7 +86,10 @@
         {
             "name": "Cloud Automation",
             "skills": [
-                "Power Automate"
+                "Power Automate",
+                "Google Cloud Functions",
+                "AWS Lambda",
+                "n8n"
             ]
         },
         {
@@ -79,7 +97,11 @@
             "skills": [
                 "Customer Service",
                 "Problem-solving",
-                "Communication"
+                "Communication",
+                "Teamwork",
+                "Adaptability",
+                "Time Management",
+                "Critical Thinking"
             ]
         }
     ]

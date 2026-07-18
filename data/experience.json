@@ -1,26 +1,34 @@
 [
     {
-        "id": 2,
-        "position": "Back End Developer",
-        "company": "Dar",
-        "startDate": "July 2025",
+        "id": 1,
+        "position": "Data Mesh Technical Lead",
+        "company": "Coca-Cola HBC",
+        "startDate": "August 2026",
         "endDate": "Present",
-        "description": "Currently working as a Back End Developer at Dar, focusing on backend development and system optimization."
+        "description": "Leading a team of engineers building the Data Mesh Platform on Azure Databricks, ADF, and ADLS Gen2, delivering data products that power analytics and AI/ML models across 29 global markets."
     },
     {
         "id": 2,
+        "position": "Senior Back End Developer",
+        "company": "Dar",
+        "startDate": "July 2025",
+        "endDate": "July 2026",
+        "description": "Leading data infrastructure for Para OS, a Digital Twin and IoT telemetry platform holding a UL Smart Systems Platinum certification, processing billions of telemetry records."
+    },
+    {
+        "id": 3,
         "position": "Data Engineer",
         "company": "LXT",
         "startDate": "Jan 2025",
         "endDate": "July 2025",
-        "description": "Worked as a Data Engineer at LXT, focusing on data pipeline development and optimization."
+        "description": "Built and maintained Airflow data pipelines supporting enterprise clients including Google, Apple, and ServiceNow."
     },
     {
-        "id": 3,
+        "id": 4,
         "position": "Back End Engineer",
         "company": "LXT",
         "startDate": "Sep 2022",
         "endDate": "Dec 2024",
-        "description": "Worked as a Back End Engineer at LXT, developing and maintaining backend systems and APIs."
+        "description": "Designed and maintained backend systems and APIs, establishing the core services that later data engineering work was built on."
     }
 ]

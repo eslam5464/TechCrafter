@@ -1,6 +1,25 @@
 [
     {
         "id": 1,
+        "title": "FastApi Template",
+        "description": "Production-ready FastAPI template with JWT authentication, PostgreSQL integration, async support, clean architecture, and modern development tools.",
+        "image": "assets/images/projects/fastapi-template.jpg",
+        "github": "https://github.com/eslam5464/Fastapi-Template",
+        "tags": [
+            "Python",
+            "FastAPI",
+            "PostgreSQL",
+            "Redis",
+            "JWT",
+            "Docker",
+            "Clean Architecture",
+            "Celery",
+            "Pytest",
+            "GCS Storage"
+        ]
+    },
+    {
+        "id": 2,
         "title": "Warehouse Manager",
         "description": "Comprehensive inventory management system for warehouse operations",
         "image": "assets/images/projects/warehouse-manager.jpg",
@@ -13,7 +32,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 3,
         "title": "ERP System",
         "description": "Enterprise Resource Planning solution for business management",
         "image": "assets/images/projects/erp-system.jpg",
@@ -25,7 +44,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": 4,
         "title": "URL Shortener",
         "description": "URL shortening service with analytics and tracking",
         "image": "assets/images/projects/url-shortener.jpg",
@@ -39,7 +58,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 5,
         "title": "Fitness App",
         "description": "Mobile application for fitness tracking and workout management",
         "image": "assets/images/projects/fitness-app.jpg",
@@ -55,7 +74,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 6,
         "title": "FlexTK",
         "description": "Flexible toolkit for data processing and transformation",
         "image": "assets/images/projects/flex-tk.jpg",
